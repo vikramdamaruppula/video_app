@@ -1,0 +1,65 @@
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.input-field{
+    background-image: linear-gradient(to right, rgb(236, 232, 232), #f2f9fc);
+    border: none; 
+    border-radius: 5px; 
+    padding: 12px 16px; 
+    font-family: "Open Sans", sans-serif; 
+    color: #333; 
+    transition: all 0.2s ease-in-out; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin:8px 12px;
+}
+.input-field:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: '5px';
+}
+.input-field:focus{
+    outline: none;  
+    border: 2px solid #007bff;
+}
+button{
+    background-image: linear-gradient(to right, #007bff, #00c6ff);
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: all 0.2s ease-in-out; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+.caption-container{
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.subtitle-container{
+    position: absolute;
+    top:85%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subtitle{
+    /* display: block; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    position: relative; 
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(37, 31, 31); 
+    background-color:lightyellow; 
+    padding: 5px;
+    margin: 5px;
+    border-radius:6px;
+    white-space: pre-wrap;
+}
